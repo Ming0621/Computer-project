@@ -1,0 +1,289 @@
+/*-----color
+#282042-dark blue
+#8099AE-light blue
+#EDF2F4-blue to white
+#EF233C-red
+-----*/
+
+/*-------Global style-------------*/
+body{
+	font-family: "open sans",sans-serif;
+	margin: 0;
+}
+
+.work-experience{
+	font-family:"open Sans";
+	 sens-serif:margin:0}
+h1,h2{
+	font-family:'caveat',cursive;font-weight:400 ;}
+h1{font-size: 60px;
+	text-align: center;
+	}
+h2{font-size:35px;margin-top:0;}
+h3{margin:0;}
+.wrap img{
+	width: 50%;
+	vertical-align: middle;
+}
+/*-----------------navigation---------------*/
+nav{text-alifn: center;position: fixed;width: 100%;background-color: white;top: 0;}
+nav a {display: inline-block;margin: 5px;text-decoration: none;font-weight: 700;font-size: 11px;text-transform: uppercase;color:#282042}
+@media (min-width: 440px) {
+	nav a {
+		margin: 14px;
+		font-size: 16px;
+	}
+}
+/*------------------linear only-----------------------*/
+header{
+	position: relative;
+	padding-top: 50px;
+	text-align: center;
+	background-color: #282042;
+	background: linear-gradient(rgba(141, 153,174,9.9),rgba(141,153,174,0.7)),
+				url(https://th.bing.com/th/id/R.e565bcd4720426155f56b9cd81fdbb36?rik=gBduS2%2bdmbhhHg&pid=ImgRaw&r=0) no-repeat fixed;
+	color: #8099AE;
+}
+header h1,header h2{
+	color:#282042;
+}
+h1{
+	margin: 0;
+}
+.content-wrap{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 60px 50px;
+	max-width: 950px;
+	overflow: hidden;}
+@media(min-width: 935px) {
+	.content-wrap{
+		flex-direction: row;
+		}
+	}
+.profile-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+@media(min-width440px){
+	.profile-img{
+		width: 200px;
+		height: 200px;
+		}
+	}
+@media(min-width: 935px){
+	.profile-img{
+		width: 250px;
+		height:250px;
+		}
+	}
+.btn{
+	text-decoration: none;
+	background: #EF233C;
+	color: white;
+	padding: 0 5px 0 5px;
+}
+@media(min-width: 440px){
+	.btn{
+		padding: 10px;
+	}
+}
+.download{
+	padding: absolute;
+	right: 0;
+	bottom: 0;
+}
+/*--------------------about---------------------------------*/
+.about{
+	padding :40px 0;
+	background-color: #EDF2F4;
+	font-family:"opesn Sans";
+
+}
+.about-wrapper{
+	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 950px;
+}
+
+.work-experience{
+	padding-top: 40px 0;
+	background-color: #EDF2F4;
+}
+.work-wrapper{
+	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 950px;
+}
+
+.job-wrapper{
+	display: block;
+	padding-bottom: 30px;
+}
+
+@media(min-width: 935px){
+	.job-wrapper{
+		display: grid;
+		grid-template-columns: 1fr 2.5fr;
+		column-gap: 30px;
+	}
+}
+h3 ～ p{
+	margin:0
+}@media(min-width: 935px){
+	.job-description p: first-of-type{
+		margin-top: 0}
+	}
+ol li{
+	margin: 8px 0;
+	padding-left: 15px;
+}
+ol li a {
+	color: blue;
+}
+/*----------------------------------------------------------------*/
+header{
+	position: relative;
+	padding-top: 50px;
+	text-align: center;
+	background-color:#282042 ;
+	color: #8099AE;
+}
+header h1,header h2{
+	color:#282042 ;
+}
+h1{margin: 0;}
+.content-wrap{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0auto;
+	padding: 60px 50px;
+	max-width: 950px;
+	overflow: hidden;
+}
+@media(min-width: 935px){
+	.content-wrap{flex-direction: row;}
+}
+.profile-img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+@media(min-width: 440px){
+	.profile-img{
+		width: 200px;
+		height: 200px;
+		}
+	}
+@media(min-width: 935px){
+	.profile-img{
+		width: 250px;
+		height: 250px;
+		}
+	}
+.btn{
+	text-decoration: none;
+	background: EF233C;
+	color: white;
+	padding: 0 5px 0 5px;
+}
+@media(min-width440px){
+	.btn{
+		padding: 10px;
+	}
+}
+.download{
+	position: absolute;
+	right: 0;
+	button: 0;
+}
+/*--------------------------------education--------------------------------*/
+.education{
+	padding: 40px 0;
+	background: linear-gradient(rgba(141, 153,174,9.9),rgba(141,153,174,0.7)),
+				url(https://www.cookies7612.tw/wp-content/uploads/20181214152918-a021c7b8.jpg) no-repeat fixed;
+	background-size: cover;
+}
+.education-wrapper{
+	maring: 0 auto;
+	padding: 0 30px;
+	max-width: 950px;
+}
+ul {
+	margin-top: 0;
+}
+/*--------------------------------Certificate--------------------------------*/
+.Certificate{
+	padding: 40px 0;
+	background-size: cover;
+}
+.Certificate-wrapper{
+	maring: 0 auto;
+	padding: 0 30px;
+	max-width: 950px;
+}
+ul {
+	margin-top: 0;
+}
+/*--------------------------------work-experience--------------------------------*/
+.work-experience{
+	padding: 40px 0;
+	background-size: cover;
+		background: linear-gradient(rgba(141, 153,174,9.9),rgba(141,153,174,0.7)),
+				url(https://www.cookies7612.tw/wp-content/uploads/20181214152918-a021c7b8.jpg) no-repeat fixed;
+}
+.work-experience-wrapper{
+	maring: 0 auto;
+	padding: 0 30px;
+	max-width: 950px;
+}
+ul {
+	margin-top: 0;
+}
+/*--------------------------------footer--------------------------------*/
+footer {
+	text-align: center;
+	background-color: #282042;
+	color: #8099AE;
+}
+.profile2{
+	width: 100px;
+	height: 60px;
+	border-radius: 50%;
+}
+.contact-wrapper{
+	margin: 0 auto;
+	padding: 50px 0;
+	max-width: 900px;
+}
+.contact-buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.media-pic{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: #8099AE solid 2px;
+}
+.media-pic:hover {
+	transform: scale(1.1);
+}
+p+h3{
+	margin-top: 30px;
+}
+footer p {
+	margin-top: 50px;
+}
+
+
+
+
